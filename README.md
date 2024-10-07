@@ -12,26 +12,42 @@ The project utilizes two primary datasets, each of which is integral to understa
 This dataset contains comprehensive information about various restaurants, which serves as a reference for their details and associated reviews. The columns included in this dataset are:
 
 business_id: A unique identifier for each restaurant.
+
 name: The name of the restaurant.
+
 location: The geographical location of the restaurant.
+
 cuisine: The type of cuisine served at the restaurant.
+
 rating: The average rating based on user reviews.
+
 price_range: The price range of the restaurant, indicating its affordability.
+
 review_count: The total number of reviews submitted for the restaurant.
+
 latitude: The latitude of the restaurant's location.
+
 longitude: The longitude of the restaurant's location.
 
 ## Reviews Dataset
 This dataset comprises user-generated reviews for the restaurants, providing valuable textual data for analysis. The columns included in this dataset are:
 
 review_id: A unique identifier for each review.
+
 business_id: A foreign key linking the review to the corresponding restaurant.
+
 user_id: A unique identifier for the user who wrote the review.
+
 text: The content of the review, expressing the user's experience and opinions.
+
 stars: The rating given by the user, typically ranging from 1 to 5.
+
 date: The date the review was submitted.
+
 helpful_votes: The number of users who found the review helpful.
+
 total_votes: The total number of votes the review received, including helpful and unhelpful votes.
+
 These datasets are combined to perform a comprehensive analysis and modeling, with textual reviews serving as input for NLP models and ratings acting as the output or target variables.
 
 # Installation and Setup
