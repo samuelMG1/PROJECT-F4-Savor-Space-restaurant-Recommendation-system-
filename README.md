@@ -1,12 +1,11 @@
 # PROJECT-F4-GROUP-5
 
-README: Natural Language Processing (NLP) Project
-Introduction
+# Introduction
 This project focuses on applying natural language processing (NLP) techniques to analyze textual data derived from restaurant reviews. NLP is a critical area within artificial intelligence that enables machines to comprehend, interpret, and generate human language. With the exponential growth of text data across various platforms, the need for effective NLP solutions is paramount. The primary objective of this project is to harness machine learning models, particularly advanced deep learning architectures such as transformers, to extract meaningful insights from text data.
 
 The project aims to analyze user-generated reviews to predict outcomes such as sentiment and star ratings based on the content of the reviews. By systematically gathering, cleaning, and analyzing the data, this project illustrates the end-to-end process involved in building a robust NLP solution.
 
-Dataset Description
+# Dataset Description
 The project utilizes two primary datasets, each of which is integral to understanding and modeling the problem.
 
 1. Restaurants Dataset
@@ -34,16 +33,16 @@ helpful_votes: The number of users who found the review helpful.
 total_votes: The total number of votes the review received, including helpful and unhelpful votes.
 These datasets are combined to perform a comprehensive analysis and modeling, with textual reviews serving as input for NLP models and ratings acting as the output or target variables.
 
-Installation and Setup
+# Installation and Setup
 To run this project locally, several dependencies and tools are required. First and foremost, Python 3.7 or higher is essential. Additionally, this project utilizes an SQLite database to store and efficiently query data during training and evaluation.
 
-Steps to Set Up the Project:
+# Steps to Set Up the Project:
 Clone the Repository: Clone the project repository from GitHub.
 Install Dependencies: All required Python packages are specified in the requirements.txt file. Install these packages to ensure that all necessary libraries are available.
 Set Up the Database: An SQLite database is utilized to manage the data. A provided script facilitates the initial setup of the database.
 Once the environment is established, users can proceed to explore the data and train models.
 
-Usage
+# Usage
 The project is structured into several key components, including scripts and Jupyter notebooks that facilitate both automated execution and interactive exploration.
 
 Data Preprocessing: This phase involves cleaning and preparing the data for modeling. Tasks include removing duplicates, handling missing values, tokenizing text, and vectorizing it using various techniques.
@@ -67,7 +66,7 @@ The project evaluates models using various performance metrics. For classificati
 
 Preliminary findings indicate that while traditional models perform adequately, advanced models such as BERT significantly outperform them, showcasing the power of deep learning in sentiment analysis and rating prediction.
 
-Directory Structure
+# Directory Structure
 The project directory is organized for clarity and ease of navigation, separating raw data, scripts, models, and results. This organization allows users to find what they need quickly:
 
 bash
@@ -85,5 +84,5 @@ Copy code
 ├── requirements.txt     # Python dependencies
 ├── README.md            # Project documentation
 └── setup_database.py    # Script to set up the SQLite database
-Conclusion
+# Conclusion
 This NLP project provides a comprehensive exploration of machine learning models applied to restaurant reviews. By leveraging both traditional and modern techniques, the project aims to deliver accurate predictions and valuable insights from the text data. Future enhancements could involve fine-tuning models, experimenting with different embeddings, or expanding the dataset to encompass a broader range of textual information.
