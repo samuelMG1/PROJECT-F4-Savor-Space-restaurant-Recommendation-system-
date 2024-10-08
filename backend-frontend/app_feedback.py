@@ -17,7 +17,7 @@ def display_contact_info():
             with col1:
                 st.markdown(
                     '<i class="fas fa-user"></i> Nancy Maina<br>'
-                    '[Email](mailto:Nancy Maina@student.moringaschool.com)<br>'
+                    '[Email](mailto:Nancy.Maina@student.moringaschool.com)<br>'
                     '[Github](link)',
                     unsafe_allow_html=True
                 )
