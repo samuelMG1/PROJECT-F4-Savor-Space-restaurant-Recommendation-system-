@@ -1,5 +1,5 @@
 # Food Tourism: Personalized Restaurant Recommendations
-![Alt text][(https://www.lsretail.com/hubfs/BLOG_5-ways-offer-amazing-personalized-service-restaurant.png))
+![Amazing Personalized Service](https://www.lsretail.com/hubfs/BLOG_5-ways-offer-amazing-personalized-service-restaurant.png)
 # Project Overview
 This project aims to create a personalized restaurant recommendation system that enhances the dining experience for users by leveraging machine learning and data analysis. The system provides tailored restaurant suggestions based on user preferences and restaurant attributes, helping users discover new culinary experiences with ease.
 
