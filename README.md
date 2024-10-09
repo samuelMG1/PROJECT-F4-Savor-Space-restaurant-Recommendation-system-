@@ -12,28 +12,23 @@ To develop a personalized restaurant recommendation system using content-based f
 # Dataset
 The dataset used in this project was scraped from Yelp and includes the following features for each business:
 
-user_id: Unique identifier for each user.
-business_id: Unique identifier for each business (restaurant).
-name: Name of the restaurant.
-address: Full address of the restaurant.
-stars: Rating given by users (1.0 - 5.0 stars).
-text: The review text provided by users.
-review_count: Number of reviews the restaurant has received.
-city: City where the restaurant is located.
-state: State where the restaurant is located.
-latitude: Latitude of the restaurant’s location.
-longitude: Longitude of the restaurant’s location.
-attributes: Attributes and features of the restaurant (e.g., parking, ambiance).
-categories: List of restaurant categories (e.g., Italian, Mexican).
-hours: Opening hours of the restaurant.
+- **`business_id`**: Unique identifier for each restaurant.
+- **`name`**: The name of the restaurant.
+- **`address`**: Restaurant address.
+- **`city`**: The city where the restaurant is located.
+- **`state`**: The state where the restaurant operates.
+- **`stars`**: The restaurant's rating.
+- **`review_count`**: The number of reviews a restaurant has received.
+- **`attributes`**: Various attributes of the restaurant such as ambience, parking, etc.
+- **`categories`**: Types of cuisines offered.
+- **`details`**: Descriptive information used to build recommendations.
 
 # Data Preparation
-Renaming columns for clarity.
-Handling missing data by removing or filling missing values.
-Removing duplicate entries.
-Selecting relevant features for the analysis.
-Filtering rows to include only relevant businesses (restaurants).
-Methodology
+ - **Renaming columns for clarity**.
+- **Handling missing data** by removing or filling missing values.
+- **Removing duplicate entries**.
+- **Selecting relevant features** for the analysis.
+- **Filtering rows** to include only relevant businesses (restaurants).
 
 # Exploratory Data Analysis (EDA)
 The dataset was analyzed to understand trends, including the distribution of restaurant ratings, popular restaurant categories, and the number of reviews per city. Visualizations such as histograms, box plots, and word clouds were used to illustrate key insights.
@@ -64,7 +59,8 @@ Install the necessary Python libraries:
 The content-based filtering model provides personalized recommendations by analyzing the similarity between restaurant descriptions and user preferences.
 The collaborative filtering model predicts restaurant ratings based on user behavior and provides additional recommendations.
 The deep learning model further refines these predictions by capturing complex interactions between user and restaurant features.
-Minimum Viable Product (MVP)
+
+# Minimum Viable Product (MVP)
 The system successfully addresses the cold start problem by switching between content-based recommendations and collaborative filtering based on user input. It provides a minimum viable product that offers restaurant recommendations in a user-friendly manner.
 
 # Future Work
@@ -77,5 +73,5 @@ Collaboration with Food Delivery Services: Integrate with food delivery services
 # Contributions
 This project was developed by Andrew Manwa, Elsie Serem, Martin Omondi, Nancy Maina, and Samuel Gathogo. Contributions are welcome—please fork the repository and submit a pull request with proposed improvements.
 
-License
+# License
 This project is licensed under the MIT License. 
