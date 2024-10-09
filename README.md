@@ -1,5 +1,5 @@
 # Food Tourism: Personalized Restaurant Recommendations
-
+![Alt text][(https://www.lsretail.com/hubfs/BLOG_5-ways-offer-amazing-personalized-service-restaurant.png))
 # Project Overview
 This project aims to create a personalized restaurant recommendation system that enhances the dining experience for users by leveraging machine learning and data analysis. The system provides tailored restaurant suggestions based on user preferences and restaurant attributes, helping users discover new culinary experiences with ease.
 
@@ -46,7 +46,7 @@ Grid search and cross-validation were used to tune the model’s hyperparameters
 
 A deep learning model was incorporated to further improve predictions, using restaurant embeddings and dense layers to predict user ratings.
 
-## How to Run the Notebook
+# How to Run the Notebook
 Prerequisites
 Python (version 3.6 or later)
 Jupyter Notebook
@@ -56,19 +56,20 @@ Clone this repository or download the .ipynb file.
 Install the necessary Python libraries:
 
 # Results
-The content-based filtering model provides personalized recommendations by analyzing the similarity between restaurant descriptions and user preferences.
-The collaborative filtering model predicts restaurant ratings based on user behavior and provides additional recommendations.
-The deep learning model further refines these predictions by capturing complex interactions between user and restaurant features.
+
+- **Content-Based Filtering Model**: Provides personalized recommendations by analyzing the similarity between restaurant descriptions and user preferences.
+- **Collaborative Filtering Model**: Predicts restaurant ratings based on user behavior and provides additional recommendations.
+- **Deep Learning Model**: Further refines these predictions by capturing complex interactions between user and restaurant features.
 
 # Minimum Viable Product (MVP)
 The system successfully addresses the cold start problem by switching between content-based recommendations and collaborative filtering based on user input. It provides a minimum viable product that offers restaurant recommendations in a user-friendly manner.
 
 # Future Work
-User Feedback Integration: Incorporate user feedback to continuously improve the recommendation system.
-Geographical Expansion: Expand the geographical coverage to include more cities and regions.
-Advanced Visuals: Add restaurant images and dish photos to enhance the user experience.
-Real-time Updates: Enable real-time updates of restaurant information, including menu changes and opening hours.
-Collaboration with Food Delivery Services: Integrate with food delivery services to allow users to order directly from recommended restaurants.
+ - **User Feedback Integration**: Incorporate user feedback to continuously improve the recommendation system.
+- **Geographical Expansion**: Expand the geographical coverage to include more cities and regions.
+- **Advanced Visuals**: Add restaurant images and dish photos to enhance the user experience.
+- **Real-time Updates**: Enable real-time updates of restaurant information, including menu changes and opening hours.
+- **Collaboration with Food Delivery Services**: Integrate with food delivery services to allow users to order directly from recommended restaurants in the list.
 
 # Contributions
 This project was developed by Andrew Manwa, Elsie Serem, Martin Omondi, Nancy Maina, and Samuel Gathogo. Contributions are welcome—please fork the repository and submit a pull request with proposed improvements.
