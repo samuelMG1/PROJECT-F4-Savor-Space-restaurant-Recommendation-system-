@@ -44,7 +44,7 @@ This EDA offered vital insights, identifying key dataset features. The dataset i
  The Blues City Deli is the clear leader in terms of customer satisfaction, as indicated by its high volume of 5-star ratings. The other restaurants, while receiving fewer ratings, still hold strong positive feedback.
 
  ![alt text](image.png)
- 
+
  We also anlyzed the number of  Restaurant how they were rated according to the services and costumer satisfaction the top five rated four.Overall, Café Du Monde is the standout restaurant in terms of customer satisfaction with 4-star ratings, followed by a moderate distribution among the other restaurants.
 
  ![alt text](image-1.png)
