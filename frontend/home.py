@@ -9,7 +9,7 @@ from deployment.app_classes import recommendation, pagenation, get_business_info
 # Loading the restaurant data
 @st.cache_data
 def load_data():
-    return pd.read_pickle()
+    return pd.read_pickle('/data/data.pkl')
 
 df = load_data()
 
