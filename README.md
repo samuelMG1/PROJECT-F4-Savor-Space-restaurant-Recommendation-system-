@@ -50,6 +50,7 @@ This EDA offered vital insights, identifying key dataset features. The dataset i
  ![alt text](image-1.png)
 
  The bar chart shows that McDonald's has the highest compliment count, followed by Café Du Monde and Starbucks. Fast-food chains dominate the top spots, with Chick-fil-A, Chipotle, and others receiving notable mentions. The compliment counts gradually decrease across the list, with First Watch having the lowest among the top 10. This suggests that larger, well-known restaurant chains tend to receive more customer feedback and compliments.
+ 
  ![alt text](image-2.png)
 
 # Modeling
