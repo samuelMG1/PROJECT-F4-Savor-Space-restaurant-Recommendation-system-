@@ -39,15 +39,26 @@ The dataset used in this project was scraped from Yelp and includes the followin
 
 # Exploratory Data Analysis (EDA)
 The dataset was analyzed to understand trends, including the distribution of restaurant ratings, popular restaurant categories, and the number of reviews per city. Visualizations such as histograms, box plots, and word clouds were used to illustrate key insights.
+This EDA offered vital insights, identifying key dataset features. The dataset is primarily composed of  Restaurant establishments, highlighting a diverse range of cuisines. Nightlife venues are also notable, indicating a vibrant nightlife scene.
+ 
+ ![alt text](image.png)
+
+ We also anlyzed the number of  Restaurant how they were rated according to the services and costumer satisfaction the top five rated four
+
+ ![alt text](image-1.png)
+
+ The bar chart shows that McDonald's has the highest compliment count, followed by Café Du Monde and Starbucks. Fast-food chains dominate the top spots, with Chick-fil-A, Chipotle, and others receiving notable mentions. The compliment counts gradually decrease across the list, with First Watch having the lowest among the top 10. This suggests that larger, well-known restaurant chains tend to receive more customer feedback and compliments.
+ ![alt text](image-2.png)
 
 # Modeling
-## Content-based Recommendation System:
-
-Implemented using cosine similarity between TF-IDF vectors of restaurant descriptions to recommend restaurants based on user preferences.
 ## Collaborative Filtering:
 
 Developed using the Surprise library’s SVD algorithm to predict user ratings based on similarities between users and restaurants.
 Grid search and cross-validation were used to tune the model’s hyperparameters, improving its performance.
+
+## Content-based Recommendation System:
+
+Implemented using cosine similarity between TF-IDF vectors of restaurant descriptions to recommend restaurants based on user preferences.
 
 ## Deep Neural Networks:
 
