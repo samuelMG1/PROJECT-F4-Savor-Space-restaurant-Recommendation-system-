@@ -42,15 +42,14 @@ The dataset was analyzed to understand trends, including the distribution of res
 This EDA offered vital insights, identifying key dataset features. The dataset is primarily composed of  Restaurant establishments, highlighting a diverse range of cuisines. Nightlife venues are also notable, indicating a vibrant nightlife scene.
  
  The Blues City Deli is the clear leader in terms of customer satisfaction, as indicated by its high volume of 5-star ratings. The other restaurants, while receiving fewer ratings, still hold strong positive feedback.
- 
- ![alt text](image.png)
 
- We also anlyzed the number of  Restaurant how they were rated according to the services and costumer satisfaction the top five rated four.Overall, Café Du Monde is the standout restaurant in terms of customer satisfaction with 4-star ratings, followed by a moderate distribution among the other restaurants.
+ ![alt text](image.png)
  
+ We also anlyzed the number of  Restaurant how they were rated according to the services and costumer satisfaction the top five rated four.Overall, Café Du Monde is the standout restaurant in terms of customer satisfaction with 4-star ratings, followed by a moderate distribution among the other restaurants.
+
  ![alt text](image-1.png)
 
  The bar chart shows that McDonald's has the highest compliment count, followed by Café Du Monde and Starbucks. Fast-food chains dominate the top spots, with Chick-fil-A, Chipotle, and others receiving notable mentions. The compliment counts gradually decrease across the list, with First Watch having the lowest among the top 10. This suggests that larger, well-known restaurant chains tend to receive more customer feedback and compliments.
- 
  ![alt text](image-2.png)
 
 # Modeling
