@@ -137,7 +137,7 @@ Overall, this project has effectively delivered a comprehensive restaurant recom
 * Advanced Machine Learning: Investigate advanced machine learning algorithms to further improve recommendation accuracy.
 
 
-This project was developed by Andrew Manwa, Elsie Serem, Martin Omondi, Nancy Maina, and Samuel Gathogo. Contributions are welcome—please fork the repository and submit a pull request with proposed improvements and join the team.S
+This project was developed by Samuel Gathogo, Andrew Manwa, Elsie Serem, Martin Omondi, Nancy Maina. Contributions are welcome—please fork the repository and submit a pull request with proposed improvements and join the team.S
 
 # License
 This project is licensed under the MIT License. 
